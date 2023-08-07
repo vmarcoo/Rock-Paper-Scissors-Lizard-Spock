@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Lizard Spock</title>
+    <link rel="icon" href="./images/png/Spock.png">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>Rock Paper Scissors Lizard Spock !</header>
+    <main>
+        <div id="container">
+            <div id="you">
+                <div class="title">You</div>
+                <div class="rock"><img id="rock" onclick="rock()" src="./images/svg/Rock.svg" alt="Rock"></div>
+                <div class="paper"><img id="paper" onclick="paper()" src="./images/svg/Paper.svg" alt="Paper"></div>
+                <div class="scissors"><img id="scissors" onclick="scissors()" src="./images/svg/Scissors.svg" alt="Scissors"></div>
+                <div class="lizard"><img id="lizard" onclick="lizard()" src="./images/svg/Lizard.svg" alt="Lizard"></div>
+                <div class="spock"><img id="spock" onclick="spock()" src="./images/svg/Spock.svg" alt="Spock"></div>
+            </div>
+
+            <div id="pc">
+                <div class="title">Computer</div>
+                <div class="rock"><img id="pcRock" src="./images/svg/Rock.svg" alt="Rock"></div>
+                <div class="paper"><img id="pcPaper" src="./images/svg/Paper.svg" alt="Paper"></div>
+                <div class="scissors"><img id="pcScissors" src="./images/svg/Scissors.svg" alt="Scissors"></div>
+                <div class="lizard"><img id="pcLizard" src="./images/svg/Lizard.svg" alt="Lizard"></div>
+                <div class="spock"><img id="pcSpock" src="./images/svg/Spock.svg" alt="Spock"></div>
+            </div>
+        </div>
+
+        <div id="counter">
+            <div id="youCounter">Your Score:<div id="youScore">0</div></div>
+            <div id="pcCounter">PC Score:<div id="pcScore">0</div></div>
+            <div id="textResult">-</div>
+            <button onclick="location.reload()">Clear</button>
+        </div>
+    </main>
+    <footer>Developed by <a style="text-decoration: none; color: white;" target=”_blank” href="https://github.com/vmarcoo">&nbsp;vmarcoo @ github.com&nbsp;</a> for <a style="text-decoration: none; color: white;" target=”_blank” href="https://www.theodinproject.com/">&nbsp;The Odin Project Foundations</a></footer>
+</body>
+<script src="./index.js"></script>
+</html>

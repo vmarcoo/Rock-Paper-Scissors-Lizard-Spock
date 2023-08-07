@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    font-family: 'Handjet', cursive;
+}
+
+body {
+    background-color: #1E293B;
+    overflow: hidden;
+}
+
+header {
+    min-height: 15vh;
+    max-height: 15vh;
+    font-size: 15vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vh;
+    margin-bottom: 5vh;
+    background-color:#161f2d
+}
+
+main {
+    min-height: 74vh;
+    max-height: 74vh;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+    min-height: 40vh;
+    max-height: 40vh;
+}
+
+#you  {
+    margin-right: 100vh;
+    z-index: 1;
+}
+
+#pc {
+    z-index: 1;
+}
+
+#you img:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+#you img:active {
+    opacity: 25%;
+}
+
+#pc img:hover {
+    opacity: 50%;
+    cursor: not-allowed;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    color: white;
+}
+
+img {
+    min-height: 14vh;
+    max-height: 14vh;
+    min-width: 14vh;
+    max-width: 14vh; 
+}
+
+.paper {
+    position: relative;
+    right: 12vh;
+    bottom: 3.5vh;
+}
+
+.scissors {
+    position: relative;
+    left: 12vh;
+    bottom: 18vh;
+}
+
+.lizard {
+    position: relative;
+    right: 8vh;
+    bottom: 17vh;
+}
+
+.spock {
+    position: relative;
+    left: 8vh;
+    bottom: 31.5vh;
+}
+
+#counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+    max-height: 15vh;
+    font-size: 8vh;
+    color: white;
+    position: relative;
+    bottom: 35vh;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+
+#counter button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 2vh;
+    padding: 1vh 2vh;
+    font-size: 5vh;
+    min-height: 8vh;
+    max-height: 8vh;
+    cursor: pointer;
+    box-shadow: 0 1.2vh #999;
+}
+
+#counter button:hover {
+    background-color: #161f2d;
+    color: white;
+    box-shadow: 0 1.2vh #474646;
+}
+
+#counter button:active {
+    box-shadow: 0 .8vh #666;
+    transform: translateY(1vh);
+}
+
+#youCounter {
+    padding-bottom: 1vh;
+}
+
+#youScore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#161f2d;
+    border-radius: 10vh;
+}
+
+#pcScore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#161f2d;
+    border-radius: 50vh;
+    margin-bottom: 1vh;
+}
+
+#textResult {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    padding: 1.5vh 4vh;
+    background-color: #161f2d;
+    border-radius: 5vh;
+    font-size: 5vh;
+    min-height: 8vh;
+    min-width: 8vh;
+}
+
+footer {
+    min-height: 2.5vh;
+    max-height: 2.5vh;
+    font-size: 2.5vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.5vh;
+    letter-spacing: .4vh;
+    background-color:#161f2d
+}
