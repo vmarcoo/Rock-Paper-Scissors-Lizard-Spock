@@ -10,3 +10,5 @@ lizard eats paper, paper disproves Spock, Spock vaporizes rock, and rock crushes
 Whoever throws the winning signal wins! If both of you make the same signal, it's a tie
 
 Hope you all enjoy it!
+
+LIVE PREVIEW: https://vmarcoo.github.io/Rock-Paper-Scissors-Lizard-Spock/
