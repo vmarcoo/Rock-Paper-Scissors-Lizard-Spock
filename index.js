@@ -16,11 +16,11 @@ function rock (){
     pcScissors.style.opacity = "100%";
     pcLizard.style.opacity = "100%";
     pcSpock.style.opacity = "100%";
-    if (pc === 0 || pc === 1){textResult.innerHTML = "It's a tie!", pcRock.style.opacity = "10%"}
-    else if (pc === 2 || pc === 3){textResult.innerHTML = "You Lose! Paper covers Rock!", pcPaper.style.opacity = "10%", pcScore.innerHTML = ++initPcScore}
-    else if (pc === 4 || pc === 5){textResult.innerHTML = "You win! Rock crushes Scissors!", pcScissors.style.opacity = "10%", youScore.innerHTML = ++initYouScore}
-    else if (pc === 6 || pc === 7){textResult.innerHTML = "You win! Rock crushes Lizard!", pcLizard.style.opacity = "10%", youScore.innerHTML = ++initYouScore}
-    else if (pc === 8 || pc === 9){textResult.innerHTML = "You lose! Spock vaporizes Rock!", pcSpock.style.opacity = "10%", pcScore.innerHTML = ++initPcScore}
+    if (pc === 0 || pc === 1){textResult.innerText = "It's a tie!", pcRock.style.opacity = "10%"}
+    else if (pc === 2 || pc === 3){textResult.innerText = "You Lose! Paper covers Rock!", pcPaper.style.opacity = "10%", pcScore.innerText = ++initPcScore}
+    else if (pc === 4 || pc === 5){textResult.innerText = "You win! Rock crushes Scissors!", pcScissors.style.opacity = "10%", youScore.innerText = ++initYouScore}
+    else if (pc === 6 || pc === 7){textResult.innerText = "You win! Rock crushes Lizard!", pcLizard.style.opacity = "10%", youScore.innerText = ++initYouScore}
+    else if (pc === 8 || pc === 9){textResult.innerText = "You lose! Spock vaporizes Rock!", pcSpock.style.opacity = "10%", pcScore.innerText = ++initPcScore}
 };
 
 function paper (){
@@ -38,11 +38,11 @@ function paper (){
     pcScissors.style.opacity = "100%";
     pcLizard.style.opacity = "100%";
     pcSpock.style.opacity = "100%";
-    if (pc === 0 || pc === 1){textResult.innerHTML = "You Win! Paper covers Rock!", pcRock.style.opacity = "10%", youScore.innerHTML = ++initYouScore}
-    else if (pc === 2 || pc === 3){textResult.innerHTML = "It's a tie!", pcPaper.style.opacity = "10%"}
-    else if (pc === 4 || pc === 5){textResult.innerHTML = "You lose! Scissors cuts Paper!", pcScissors.style.opacity = "10%", pcScore.innerHTML = ++initPcScore}
-    else if (pc === 6 || pc === 7){textResult.innerHTML = "You lose! Lizard eats Paper!", pcLizard.style.opacity = "10%", pcScore.innerHTML = ++initPcScore}
-    else if (pc === 8 || pc === 9){textResult.innerHTML = "You win! Paper disapproves Spock!", pcSpock.style.opacity = "10%", youScore.innerHTML = ++initYouScore}
+    if (pc === 0 || pc === 1){textResult.innerText = "You Win! Paper covers Rock!", pcRock.style.opacity = "10%", youScore.innerText = ++initYouScore}
+    else if (pc === 2 || pc === 3){textResult.innerText = "It's a tie!", pcPaper.style.opacity = "10%"}
+    else if (pc === 4 || pc === 5){textResult.innerText = "You lose! Scissors cuts Paper!", pcScissors.style.opacity = "10%", pcScore.innerText = ++initPcScore}
+    else if (pc === 6 || pc === 7){textResult.innerText = "You lose! Lizard eats Paper!", pcLizard.style.opacity = "10%", pcScore.innerText = ++initPcScore}
+    else if (pc === 8 || pc === 9){textResult.innerText = "You win! Paper disapproves Spock!", pcSpock.style.opacity = "10%", youScore.innerText = ++initYouScore}
 };
 
 function scissors (){
@@ -60,11 +60,11 @@ function scissors (){
     pcScissors.style.opacity = "100%";
     pcLizard.style.opacity = "100%";
     pcSpock.style.opacity = "100%";
-    if (pc === 0 || pc === 1){textResult.innerHTML = "You lose! Rock crushes Scissors!", pcRock.style.opacity = "10%", pcScore.innerHTML = ++initPcScore}
-    else if (pc === 2 || pc === 3){textResult.innerHTML = "You win! Scissors cuts Paper!", pcPaper.style.opacity = "10%", youScore.innerHTML = ++initYouScore}
-    else if (pc === 4 || pc === 5){textResult.innerHTML = "It's a tie!", pcScissors.style.opacity = "10%"}
-    else if (pc === 6 || pc === 7){textResult.innerHTML = "You win! Scissors decapitates Lizard!", pcLizard.style.opacity = "10%", youScore.innerHTML = ++initYouScore}
-    else if (pc === 8 || pc === 9){textResult.innerHTML = "You lose! Spock smashes Scissors!", pcSpock.style.opacity = "10%", pcScore.innerHTML = ++initPcScore}
+    if (pc === 0 || pc === 1){textResult.innerText = "You lose! Rock crushes Scissors!", pcRock.style.opacity = "10%", pcScore.innerText = ++initPcScore}
+    else if (pc === 2 || pc === 3){textResult.innerText = "You win! Scissors cuts Paper!", pcPaper.style.opacity = "10%", youScore.innerText = ++initYouScore}
+    else if (pc === 4 || pc === 5){textResult.innerText = "It's a tie!", pcScissors.style.opacity = "10%"}
+    else if (pc === 6 || pc === 7){textResult.innerText = "You win! Scissors decapitates Lizard!", pcLizard.style.opacity = "10%", youScore.innerText = ++initYouScore}
+    else if (pc === 8 || pc === 9){textResult.innerText = "You lose! Spock smashes Scissors!", pcSpock.style.opacity = "10%", pcScore.innerText = ++initPcScore}
 };
 
 function lizard (){
@@ -82,11 +82,11 @@ function lizard (){
     pcScissors.style.opacity = "100%";
     pcLizard.style.opacity = "100%";
     pcSpock.style.opacity = "100%";
-    if (pc === 0 || pc === 1){textResult.innerHTML = "You lose! Rock crushes Lizard!", pcRock.style.opacity = "10%", pcScore.innerHTML = ++initPcScore}
-    else if (pc === 2 || pc === 3){textResult.innerHTML = "You win! Lizard eats Paper!", pcPaper.style.opacity = "10%", youScore.innerHTML = ++initYouScore}
-    else if (pc === 4 || pc === 5){textResult.innerHTML = "You lose! Scissors decapitates Lizard!", pcScissors.style.opacity = "10%", pcScore.innerHTML = ++initPcScore}
-    else if (pc === 6 || pc === 7){textResult.innerHTML = "It's a tie!", pcLizard.style.opacity = "10%"}
-    else if (pc === 8 || pc === 9){textResult.innerHTML = "You win! Lizard poisons Spock!", pcSpock.style.opacity = "10%", youScore.innerHTML = ++initYouScore}
+    if (pc === 0 || pc === 1){textResult.innerText = "You lose! Rock crushes Lizard!", pcRock.style.opacity = "10%", pcScore.innerText = ++initPcScore}
+    else if (pc === 2 || pc === 3){textResult.innerText = "You win! Lizard eats Paper!", pcPaper.style.opacity = "10%", youScore.innerText = ++initYouScore}
+    else if (pc === 4 || pc === 5){textResult.innerText = "You lose! Scissors decapitates Lizard!", pcScissors.style.opacity = "10%", pcScore.innerText = ++initPcScore}
+    else if (pc === 6 || pc === 7){textResult.innerText = "It's a tie!", pcLizard.style.opacity = "10%"}
+    else if (pc === 8 || pc === 9){textResult.innerText = "You win! Lizard poisons Spock!", pcSpock.style.opacity = "10%", youScore.innerText = ++initYouScore}
 };
 
 function spock(){
@@ -104,9 +104,9 @@ function spock(){
     pcScissors.style.opacity = "100%";
     pcLizard.style.opacity = "100%";
     pcSpock.style.opacity = "100%";
-    if (pc === 0 || pc === 1){textResult.innerHTML = "You win! Spock vaporizes Rock!", pcRock.style.opacity = "10%", youScore.innerHTML = ++initYouScore}
-    else if (pc === 2 || pc === 3){textResult.innerHTML = "You lose! Paper disapproves Spock!", pcPaper.style.opacity = "10%", pcScore.innerHTML = ++initPcScore}
-    else if (pc === 4 || pc === 5){textResult.innerHTML = "You win! Spock smashes Scissors!", pcScissors.style.opacity = "10%", youScore.innerHTML = ++initYouScore}
-    else if (pc === 6 || pc === 7){textResult.innerHTML = "You lose! Lizard poisons Spock!", pcLizard.style.opacity = "10%", pcScore.innerHTML = ++initPcScore}
-    else if (pc === 8 || pc === 9){textResult.innerHTML = "It's a tie!", pcSpock.style.opacity = "10%"}
+    if (pc === 0 || pc === 1){textResult.innerText = "You win! Spock vaporizes Rock!", pcRock.style.opacity = "10%", youScore.innerText = ++initYouScore}
+    else if (pc === 2 || pc === 3){textResult.innerText = "You lose! Paper disapproves Spock!", pcPaper.style.opacity = "10%", pcScore.innerText = ++initPcScore}
+    else if (pc === 4 || pc === 5){textResult.innerText = "You win! Spock smashes Scissors!", pcScissors.style.opacity = "10%", youScore.innerText = ++initYouScore}
+    else if (pc === 6 || pc === 7){textResult.innerText = "You lose! Lizard poisons Spock!", pcLizard.style.opacity = "10%", pcScore.innerText = ++initPcScore}
+    else if (pc === 8 || pc === 9){textResult.innerText = "It's a tie!", pcSpock.style.opacity = "10%"}
 };
