@@ -1,4 +1,4 @@
-# Rock-Paper-Scissors-Lizard-Spock
+# Rock Paper Scissors Lizard Spock
 
 This is a webpage created to play a "Rock-Paper-Scissors-Lizard-Spock" game 
 made from scratch for The Odin Project's Foundations course. I intend 
@@ -11,4 +11,4 @@ Whoever throws the winning signal wins! If both of you make the same signal, it'
 
 Hope you all enjoy it!
 
-LIVE PREVIEW: https://vmarcoo.github.io/Rock-Paper-Scissors-Lizard-Spock/
+LIVE PREVIEW: https://vmarcoo.github.io/rock-paper-scissors-lizard-spock/
