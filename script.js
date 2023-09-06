@@ -1,16 +1,17 @@
+const textResult = document.querySelector("#textResult");
+const pcRock = document.getElementById("pcRock");
+const pcPaper = document.getElementById("pcPaper");
+const pcScissors = document.getElementById("pcScissors");
+const pcLizard = document.getElementById("pcLizard");
+const pcSpock = document.getElementById("pcSpock");
+const youScore = document.querySelector("#youScore");
+const pcScore = document.querySelector("#pcScore");
+
 let initYouScore = 0;
 let initPcScore = 0;
 
 function rock (){
-    const textResult = document.querySelector("#textResult");
-    const pcRock = document.getElementById("pcRock");
-    const pcPaper = document.getElementById("pcPaper");
-    const pcScissors = document.getElementById("pcScissors");
-    const pcLizard = document.getElementById("pcLizard");
-    const pcSpock = document.getElementById("pcSpock");
-    const youScore = document.querySelector("#youScore");
-    const pcScore = document.querySelector("#pcScore");
-    const pc = Math.floor(Math.random()*10);
+    let pc = Math.floor(Math.random()*10);
     pcRock.style.opacity = "100%";
     pcPaper.style.opacity = "100%";
     pcScissors.style.opacity = "100%";
@@ -24,15 +25,7 @@ function rock (){
 };
 
 function paper (){
-    const textResult = document.querySelector("#textResult");
-    const pcRock = document.getElementById("pcRock");
-    const pcPaper = document.getElementById("pcPaper");
-    const pcScissors = document.getElementById("pcScissors");
-    const pcLizard = document.getElementById("pcLizard");
-    const pcSpock = document.getElementById("pcSpock");
-    const youScore = document.querySelector("#youScore");
-    const pcScore = document.querySelector("#pcScore");
-    const pc = Math.floor(Math.random()*10);
+    let pc = Math.floor(Math.random()*10);
     pcRock.style.opacity = "100%";
     pcPaper.style.opacity = "100%";
     pcScissors.style.opacity = "100%";
@@ -46,15 +39,7 @@ function paper (){
 };
 
 function scissors (){
-    const textResult = document.querySelector("#textResult");
-    const pcRock = document.getElementById("pcRock");
-    const pcPaper = document.getElementById("pcPaper");
-    const pcScissors = document.getElementById("pcScissors");
-    const pcLizard = document.getElementById("pcLizard");
-    const pcSpock = document.getElementById("pcSpock");
-    const youScore = document.querySelector("#youScore");
-    const pcScore = document.querySelector("#pcScore");
-    const pc = Math.floor(Math.random()*10);
+    let pc = Math.floor(Math.random()*10);
     pcRock.style.opacity = "100%";
     pcPaper.style.opacity = "100%";
     pcScissors.style.opacity = "100%";
@@ -68,15 +53,7 @@ function scissors (){
 };
 
 function lizard (){
-    const textResult = document.querySelector("#textResult");
-    const pcRock = document.getElementById("pcRock");
-    const pcPaper = document.getElementById("pcPaper");
-    const pcScissors = document.getElementById("pcScissors");
-    const pcLizard = document.getElementById("pcLizard");
-    const pcSpock = document.getElementById("pcSpock");
-    const youScore = document.querySelector("#youScore");
-    const pcScore = document.querySelector("#pcScore");
-    const pc = Math.floor(Math.random()*10);
+    let pc = Math.floor(Math.random()*10);
     pcRock.style.opacity = "100%";
     pcPaper.style.opacity = "100%";
     pcScissors.style.opacity = "100%";
@@ -90,15 +67,7 @@ function lizard (){
 };
 
 function spock(){
-    const textResult = document.querySelector("#textResult");
-    const pcRock = document.getElementById("pcRock");
-    const pcPaper = document.getElementById("pcPaper");
-    const pcScissors = document.getElementById("pcScissors");
-    const pcLizard = document.getElementById("pcLizard");
-    const pcSpock = document.getElementById("pcSpock");
-    const youScore = document.querySelector("#youScore");
-    const pcScore = document.querySelector("#pcScore");
-    const pc = Math.floor(Math.random()*10);
+    let pc = Math.floor(Math.random()*10);
     pcRock.style.opacity = "100%";
     pcPaper.style.opacity = "100%";
     pcScissors.style.opacity = "100%";
